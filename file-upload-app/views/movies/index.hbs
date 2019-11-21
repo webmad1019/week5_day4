@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Nuestras pelis</h1>
+
+    <div class="row">
+        {{#each movies}}
+        <div class="col-md-3">
+            <img src="{{this.imgPath}}" alt="" style="width: 100%">
+            <h4>{{this.title}}</h4>
+            <p>{{this.description}}</p>
+        </div>
+        {{else}}
+        <p>No hay pelis aw D:</p>
+        {{/each}}
+    </div>
+</div>

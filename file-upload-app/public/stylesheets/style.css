@@ -1,0 +1,17 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.container {
+  padding-top: 95px;
+  padding-bottom: 95px; }
+
+h1 {
+  margin-bottom: 50px; }
+
+.coasters-index .btn {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
